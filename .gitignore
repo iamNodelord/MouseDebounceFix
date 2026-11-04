@@ -1,0 +1,9 @@
+# runtime state written by the app (threshold + autostart flag)
+config.ini
+
+# build artifacts
+*.exe
+*.old
+
+# logs
+*.log
