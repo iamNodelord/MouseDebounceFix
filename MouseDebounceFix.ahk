@@ -143,6 +143,10 @@ ShowMain() {
     btnSave  := gGui.AddButton("x20 w200 Default", "Сохранить и применить")
     btnClose := gGui.AddButton("x+12 w140", "Закрыть")
 
+    gGui.SetFont("s8 Norm")
+    gGui.AddText("x20 w400 Center cGray", "Created by iamNodelord")
+    gGui.SetFont("s10 Norm")
+
     gSlider.OnEvent("Change", OnSliderChange)
     btnSave.OnEvent("Click", OnSaveApply)
     btnClose.OnEvent("Click", CloseMain)
